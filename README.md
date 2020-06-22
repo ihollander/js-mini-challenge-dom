@@ -26,7 +26,7 @@ Figure out what you need to change to give Javascript access to the `h1#header` 
 
 **YOUR NOTES**
 ```
-
+The code in the JS file is fine. It's just **where** the script tag referencing the file is place. Because it's on top, the JavaScript is loading before the HTML renders. I placed it at the bottom.
 ```
 
 ## Deliverable 2
@@ -35,14 +35,14 @@ Now that you have access to the `h1#header` element, use Javascript to change th
 
 **YOUR NOTES**
 ```
-
+header.style.color = "red"; // changes the text color to red
 ```
 
 ## Deliverable 3
 
 Now that we've got a beautiful red header, we can show some players on the page. The player data is stored in a variable called `PLAYERS` in the `data.js` file - you can still access that variable in your `index.js` file (see if you can figure out why!).
 
-First, uncomment the `console.log` under Deliverable 3 in the `index.js` file to see the data in the console. *For each* player in our application, we want to render their information on the DOM inside the `div#player-container` element. 
+First, uncomment the `console.log` under Deliverable 3 in the `index.js` file to see the data in the console. *For each* player in our application, we want to render their information on the DOM inside the `div#player-container` element.
 
 Create a DOM element that looks like this for each player and append it to the `div.player-container`:
 
@@ -57,16 +57,21 @@ Create a DOM element that looks like this for each player and append it to the `
 
 **YOUR NOTES**
 ```
-
+- You want to grab the element with the id of "player-container". Whatever elements you create as you iterate through the array of players will need to be appended to it.
+- On each iteration of the players array, you'll need to create a div. But separately, and I don't know if this is dry, but to set attributes, twice. To give it the class of player, and to give it a data-number of the players number.
+  - I could have a function in there to take an argument of attributes and assign them whenever, but I guess since it's just two attributes, this is just fine.
+- Then you want to create a multi-line string of what the contents of that container will be. Use template literal to plug in keys from each player object. Assign that to a variable.
+- Take that variable and assign it to the innerHTML of the div you created.
+- Then use appendChild to add each div you created to the original player-container in the html.
 ```
 
 ## Deliverable 4
 
 Uh-oh! A Manchester City player, Raheem Sterling, snuck into our list. Use Javascript to find the element with the `[data-number='7']` attribute, and remove that element from the page.
 
-Hint: You can use `querySelector` with [CSS Attribute Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors) to find an element with a specific data-number. 
+Hint: You can use `querySelector` with [CSS Attribute Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors) to find an element with a specific data-number.
 
 **YOUR NOTES**
 ```
-
+.removeChild() takes an argument, but will be applied to the container. Grab the element with the data-number of 7, and just plug that in as the argument.
 ```
