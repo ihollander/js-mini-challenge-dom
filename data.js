@@ -13,9 +13,9 @@ const PLAYERS = [
   },
   {
     number: 66,
-    name: "IAN",
-    nickname: "Young Ian",
-    photo: "https://learning.flatironschool.com/courses/1937/files/238227/preview"
+    name: "Trent Alexander-Arnold",
+    nickname: "Young Trent",
+    photo: "https://resources.premierleague.com/photos/premierleague/photo/2019/12/26/f04875d3-a35d-4555-8e15-762bc8fcb5ea/1196090853.jpg?width=897&height=620"
   },
   {
     number: 14,
