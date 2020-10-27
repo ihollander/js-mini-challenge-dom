@@ -44,7 +44,7 @@ Figure out what you need to change to give Javascript access to the `h1#header` 
 
 **YOUR NOTES**
 ```
-
+Change the index.html file script to defer the javascript file
 ```
 
 ## Deliverable 2
@@ -53,7 +53,7 @@ Now that you have access to the `h1#header` element, use Javascript to change th
 
 **YOUR NOTES**
 ```
-
+adding a style to the header object
 ```
 
 ## Deliverable 3
