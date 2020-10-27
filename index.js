@@ -5,20 +5,11 @@ const header = document.querySelector('h1').style.color = 'red'
 //console.log("Here's your header:", header)
 
 
-
-
-
-
-
-
-
 /***** Deliverable 3 *****/
 const list = document.createElement('ul')
 const div = document.querySelector('.player-container')
 
 div.append(list)
-
-
 
 function renderPlayer(playerObj){
 
@@ -34,13 +25,9 @@ function renderPlayer(playerObj){
     </div>
 
     `
-
  //console.log("PLAYERS array looks like this:", PLAYERS)
 
     list.append(player)
-
-
-
 }
 
 function renderAllPlayers (players) {
@@ -49,12 +36,9 @@ function renderAllPlayers (players) {
     })
 }
 
-
-
 renderAllPlayers(PLAYERS);
 
 
-
-
-
 /***** Deliverable 4 *****/
+
+document.querySelector(`[data-number="7"]`).remove()
