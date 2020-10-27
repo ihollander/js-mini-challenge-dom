@@ -13,11 +13,13 @@ PLAYERS.forEach(function(player) {
     let div = document.createElement("div")
     div.className = "player"
     div.dataset.number = `${player.number}`
-    div.innerHTML = `<h3>
+    div.innerHTML = `
+        <h3>
         ${player.name} <em>${player.nickname}</em>
         </h3>
-        <img src="${player.photo}" alt="${player.name}">`
-        document.querySelector(".player-container").append(div)
+        <img src="${player.photo}" alt="${player.name}">
+        `
+    document.querySelector(".player-container").append(div)
 })
 
 // data-number="(Player Number)"
