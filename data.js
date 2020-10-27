@@ -13,9 +13,9 @@ const PLAYERS = [
   },
   {
     number: 66,
-    name: "Trent Alexander-Arnold",
-    nickname: "Young Trent",
-    photo: "https://tbrfootball.com/static/uploads/2020/03/GettyImages-1196162385.jpg"
+    name: "IAN",
+    nickname: "Young Ian",
+    photo: "https://learning.flatironschool.com/courses/1937/files/238227/preview"
   },
   {
     number: 14,
@@ -27,6 +27,6 @@ const PLAYERS = [
     number: 7,
     name: "Raheem Sterling",
     nickname: "Raz",
-    photo: "https://talksport.com/wp-content/uploads/sites/5/2019/03/GettyImages-1134871855.jpg?strip=all&w=960&quality=100"
+    photo: "https://resources.premierleague.com/photos/premierleague/photo/2019/12/26/f04875d3-a35d-4555-8e15-762bc8fcb5ea/1196090853.jpg?width=897&height=620"
   }
 ]
