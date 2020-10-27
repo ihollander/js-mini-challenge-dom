@@ -65,15 +65,13 @@ First, uncomment the `console.log` under Deliverable 3 in the `index.js` file to
 Create a DOM element that looks like this for each player and append it to the `div.player-container`:
 
 ```html
-<div class="player" data-number="{player number}">
+<div class="player" data-number="(Player Number)">
   <h3>
     {player name} (<em>{player nickname}</em>)
   </h3>
   <img src="{player image}" alt="{player name}">
 </div>
 ```
-
-> If you need a hint on the 'data-number' attribute, have a look at this [MDN article on using data-* attributes](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes)
 
 **YOUR NOTES**
 ```
