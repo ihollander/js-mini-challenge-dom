@@ -44,7 +44,7 @@ Figure out what you need to change to give Javascript access to the `h1#header` 
 
 **YOUR NOTES**
 ```
-
+Got stumped thinking too far ahead! set the JS file to defer
 ```
 
 ## Deliverable 2
@@ -53,7 +53,7 @@ Now that you have access to the `h1#header` element, use Javascript to change th
 
 **YOUR NOTES**
 ```
-
+added a handful of styling changes
 ```
 
 ## Deliverable 3
@@ -75,7 +75,7 @@ Create a DOM element that looks like this for each player and append it to the `
 
 **YOUR NOTES**
 ```
-
+took a little while to figure out setting the dataset
 ```
 
 ## Deliverable 4
@@ -86,5 +86,5 @@ Hint: You can use `querySelector` with [CSS Attribute Selectors](https://develop
 
 **YOUR NOTES**
 ```
-
+got an assist to figure out the right syntax to search for a specific dataset
 ```
