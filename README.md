@@ -85,6 +85,6 @@ Uh-oh! A Manchester City player, Raheem Sterling, snuck into our list. Use Javas
 Hint: You can use `querySelector` with [CSS Attribute Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors) to find an element with a specific data-number. 
 
 **YOUR NOTES**
-```
+``` one of the pics didn't work (Trent Alexander-Arnold)
 
 ```
