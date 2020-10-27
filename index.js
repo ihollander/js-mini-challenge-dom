@@ -1,3 +1,7 @@
+//Completed by Mike, Reid, Bryam, Sam, and Chloe
+
+
+
 /***** Deliverable 1 *****/
 const header = document.querySelector("h1#header")
 console.log("Here's your header:", header)
