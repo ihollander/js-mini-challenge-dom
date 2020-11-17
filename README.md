@@ -44,6 +44,7 @@ Figure out what you need to change to give Javascript access to the `h1#header` 
 
 **YOUR NOTES**
 ```
+Had to defer the index.js file from being loaded so it would apply to the rest of the HTML, so document would include the entirety of HTML
 
 ```
 
@@ -53,6 +54,7 @@ Now that you have access to the `h1#header` element, use Javascript to change th
 
 **YOUR NOTES**
 ```
+used variable set to access the dom node and then changed the style and color
 
 ```
 
@@ -66,6 +68,9 @@ Using the `player` object, update the DOM to show the player's *name*, *nickname
 
 **YOUR NOTES**
 ```
+Can access data.js bc of it being linked in index.js?
+
+selected each element to be updated and set value to = player.key(from player object)
 
 ```
 
@@ -96,5 +101,5 @@ Use Javascript to find the element with the `[data-id='3']` attribute, and *remo
 
 **YOUR NOTES**
 ```
-
+found last child of ul to remove
 ```

@@ -17,7 +17,8 @@ const nickname = document.querySelector("em")
 nickname.textContent = player.nickname
 
 const photo = document.querySelector("img")
-photo.src = player.photo 
+photo.src = player.photo
+photo.alt = player.name
 
 /***** Deliverable 4 *****/
 const array = player.goals
@@ -33,3 +34,4 @@ array.forEach(function(goal){
 /***** Deliverable 5 *****/
 
 const removeGoal = document.querySelector("ul").lastElementChild.remove()
+querySelector(`[data-id=“3”]`).remove()
