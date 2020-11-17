@@ -50,7 +50,8 @@ Figure out what you need to change to give Javascript access to the `h1#header` 
 
 **YOUR NOTES**
 ```
-
+The script was in the head and not in the body. 
+We chose to use defer to gain access.
 ```
 
 ## Deliverable 2
@@ -59,7 +60,7 @@ Now that you have access to the `h1#header` element, use Javascript to change th
 
 **YOUR NOTES**
 ```
-
+Simple enough.
 ```
 
 ## Deliverable 3
@@ -72,7 +73,8 @@ Using the `player` object, update the DOM to show the player's *name*, *nickname
 
 **YOUR NOTES**
 ```
-
+Can access player variable because data.js is also linked in the HTML file
+Didn't have time to refactor
 ```
 
 ## Deliverable 4
@@ -90,6 +92,14 @@ We also want to show some of the best goals for our player. You'll notice that w
 
 For more info on `data-*` attributes, have a look at this [MDN article on using dataset attributes](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes)
 
+
+**YOUR NOTES**
+```
+Used a forEach loop to create tags for each element and appended to the parent tag
+
+```
+
+
 ## Deliverable 5
 
 Uh-oh! Another player's goal has snuck into our list. While it's certainly a [great goal](https://youtu.be/WLm-YK5Yfv0), it doesn't belong on the list with the rest of Mo Salah's goals. 
@@ -102,5 +112,5 @@ Use Javascript to find the element with the `[data-id='3']` attribute, and *remo
 
 **YOUR NOTES**
 ```
-
+Couldn't figure out how to do it via data-id=3, so we used the index approach.
 ```
