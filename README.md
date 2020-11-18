@@ -49,18 +49,20 @@ Open the `index.html` file in your browser and check the console in Chrome Dev T
 Figure out what you need to change to give Javascript access to the `h1#header` element.
 
 **YOUR NOTES**
-```
+<!-- ```
+Put 'defer' in line 7 of the code where was are calling our JS file. The header hasn't been defined at the time of line 7, so the JS needs to either be deferreed or moved to the bottom of the body.
 
-```
+header was diplaying entire header object, so we changed it to header.textContent to display the text property.
+``` -->
 
 ## Deliverable 2
 
 Now that you have access to the `h1#header` element, use Javascript to change the element's font color to red (of course).
 
 **YOUR NOTES**
-```
-
-```
+<!-- ```
+Easy solve. Already had access to header, so just needed to change the style.color to 'red'.
+``` -->
 
 ## Deliverable 3
 
@@ -71,8 +73,8 @@ First, uncomment the `console.log` under Deliverable 3 in the `index.js` file to
 Using the `player` object, update the DOM to show the player's *name*, *nickname*, and *photo* in the appropriate places. For the `<img>` tag, make sure to update the `src` attribute *and* the `alt` attribute (it's important for accessibility).
 
 **YOUR NOTES**
-```
-
+<!-- ```
+Need to create the objects to modify the properties of them. Don't need to create a loop here if dealing with one player for a single player's show page. If we wanted this for an array of players we would need to loop it. -->
 ```
 
 ## Deliverable 4
